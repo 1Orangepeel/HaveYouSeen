@@ -8,7 +8,7 @@
         body {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: flex-start; /* Align items at the top */
             align-items: center;
             height: 100vh;
             margin: 0;
@@ -28,18 +28,19 @@
         }
         .text {
             font-size: 30px; /* Font size 30 */
+            margin-top: 20px; /* Add margin for spacing */
         }
     </style>
 </head>
 <body>
+    <!-- Text at the top center -->
+    <div class="text">Hello, World!</div>
+
     <div class="content">
         <img src="image.png" alt="Displayed Image">
     </div>
 
-    <!-- Text at the top center -->
-    <div class="text">HAVE YOU SEEN FIZZ</div>
-
     <!-- GIF below the picture -->
-    <img class="gif" src="pepe-peppo.gif" alt="Animated GIF">
+    <img class="gif" src="example.gif" alt="Animated GIF">
 </body>
 </html>
