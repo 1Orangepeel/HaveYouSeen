@@ -24,15 +24,10 @@
 <body>
     <img src="image.png" alt="Displayed Image">
     
-    <!-- Add the audio element below the image without controls -->
-    <audio autoplay>
+    <!-- Add the audio element below the image -->
+    <audio controls>
         <source src="song.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
-    
-    <script>
-        // Set the volume to 50%
-        document.querySelector('audio').volume = 0.5;
-    </script>
 </body>
 </html>
