@@ -19,7 +19,7 @@
             object-fit: contain;
         }
         audio {
-            /*display: none; /* Hide the audio player */
+            display: none; /* Hide the audio player */
         }
     </style>
 </head>
@@ -27,9 +27,9 @@
     <img src="image.png" alt="Displayed Image">
 
     <!-- Audio player for YouTube audio -->
-    <audio autoplay controls>
-        <!-- Provide the source URL of the YouTube audio stream -->
-        <source src="https://www.youtube.com/watch?v=VLZ9Ike2Geo">
+    <audio controls>
+        <!-- Provide an alternative audio source -->
+        <source src="song.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
 </body>
