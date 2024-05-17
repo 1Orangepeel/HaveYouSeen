@@ -7,11 +7,15 @@
     <style>
         body {
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             background-color: #333; /* Dark grey background color */
+        }
+        .content {
+            flex: 1;
         }
         img {
             max-width: 100%;
@@ -19,15 +23,16 @@
             object-fit: contain;
         }
         .gif {
-            margin-top: 20px; /* Adjust margin as needed */
             max-width: 100%;
         }
     </style>
 </head>
 <body>
-    <img src="image.png" alt="Displayed Image">
+    <div class="content">
+        <img src="image.png" alt="Displayed Image">
+    </div>
 
     <!-- GIF below the picture -->
-    <img class="gif" src="pepe-peppo.gif" alt="Animated GIF">
+    <img class="gif" src="example.gif" alt="Animated GIF">
 </body>
 </html>
